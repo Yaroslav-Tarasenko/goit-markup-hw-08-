@@ -1,0 +1,27 @@
+/*----------UTILS-PART----------*/
+@import './utils/vars';
+@import './base/reset';
+@import './utils/visually-hidden';
+@import './base/common';
+@import './utils/is-hidden';
+
+/*----------MAIN-PAGE-STYLE----------*/
+
+@import './layout/header';
+@import './layout/hero-upper-part';
+@import './components/hero-button';
+@import './layout/modal';
+@import './layout/features';
+@import './layout/performance';
+@import './layout/team';
+@import './layout/regular-clients';
+@import './layout/footer';
+@import './components/footer-button';
+
+/*----------PORTFOLIO-STYLE----------*/
+
+@import './layout/portfolio-navigation';
+@import './components/portfolio-button';
+@import './layout/portfolio-table';
+
+
