@@ -1,6 +1,6 @@
 .section--other-background {
   background-color: #f5f4fa;
-  padding-bottom: 60px;
+  width: 100%;
   padding-top: 60px;
 }
 
@@ -75,8 +75,8 @@
 
 	}
 	@media screen and (min-width: 1200px) {
-		width: 270px;
-		height: 428px;
+		width: auto;
+		height: auto;
     margin: 15px;
 	}
 }
