@@ -6,7 +6,7 @@
     @media screen and (max-width: 767px) {
 		flex-wrap: wrap;
 		justify-content: flex-start;
-		margin-top: -15px;
+		margin-bottom: 40px;
 	}
 
 	@media screen and (min-width: 768px) {
@@ -18,9 +18,7 @@
 	}
 }
 
-.tablet-margin {
-	margin-top: 10px;
-}
+
 
 .navigation__item{
 	margin-right: 8px;
@@ -29,11 +27,13 @@
     	}
     @media screen and (max-width: 767px) {
 		margin-top: 0;
+		margin-bottom: 10px;
+		&:nth-child(4n) {
+			margin-bottom: 0;
+		}
+		&:nth-child(5n) {
+			margin-bottom: 0;
+		}
 	}
 }
 
-.navigation__item{
-	@media screen and (max-width:767px) {
-		margin-top: 0;
-	}
-}
